@@ -9,3 +9,11 @@ To use this script, follow these steps:
 4. Run the script using the command ruby github_comments.rb.
 5. The script will prompt you to enter a comment word. Provide the desired keyword for searching discussions on   GitHub.
 6. The script will start crawling GitHub discussions based on the provided keyword, scrape the content, and store the data in a CSV file named with a timestamp and the search query.
+
+**Steps for Clone Repository**   
+   (Run this Command in Terminal)
+  ```
+    $ git clone https://github.com/shubhamp1/GitHub_discussion_scraper.git
+    $ cd GitHub_discussion_scraper
+    $ ruby github_comments.rb 
+  ```
