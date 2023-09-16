@@ -20,12 +20,12 @@ class GithubSpider < Kimurai::Base
 
   def parse(response, url, data: {})
 
-		# parsed_page = response.xpath("//p")&.text
-		# json_data = JSON.parse(parsed_page)
-		# page_count = json_data["payload"]["page_count"] + 1
+		parsed_page = response.xpath("//p")&.text
+		json_data = JSON.parse(parsed_page)
+		page_count = json_data["payload"]["page_count"] + 1
 
 
-		# parse_csv(page_count, url)
+		parse_csv(page_count, url)
 		end_comments
   end
 
